@@ -1,8 +1,31 @@
 aid: origami-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/origami-robotics.png
 name: Origami Robotics
-description: Origami Robotics is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Origami Robotics is a Y Combinator (Winter 2026) hardware startup based in
+  Millbrae, California building advanced robotic hands designed specifically for
+  machine learning and general-purpose robotic manipulation. The company designs
+  a high-degrees-of-freedom hand with in-joint motors, co-designed with a
+  matching data-collection glove that eliminates the embodiment gap between human
+  and robot manipulation so that real-world training data transfers directly to
+  deployed robots. Its focus areas include force transparency, avoiding the
+  sim-to-real problems of high-ratio gearboxes, and scaling real-world
+  manipulation data by deploying devices "in the wild." Origami Robotics targets
+  industrial automation in manufacturing and logistics and has sold hands to
+  Physical AI research labs including Amazon. Origami Robotics is a hardware and
+  robotics company; as of this profile it publishes no public API, SDK,
+  developer portal, or machine-readable interface.
 url: https://raw.githubusercontent.com/api-evangelist/origami-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +33,29 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Robotics
+- Robotic Hands
+- Machine Learning
+- Manipulation
+- Physical AI
+- Hardware
+- Automation
 apis: []
+common:
+- type: DomainSecurity
+  url: security/origami-robotics-domain-security.yml
+- type: Website
+  url: https://www.origami-robotics.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
