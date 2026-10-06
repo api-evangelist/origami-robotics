@@ -51,7 +51,7 @@ x-enrichment:
   pass: local-v1
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Robotics
@@ -73,6 +73,8 @@ tags_raw:
 - Machine-Learning
 apis: []
 common:
+- url: https://www.origami-robotics.com/blog/
+  type: Blog
 - type: DomainSecurity
   url: security/origami-robotics-domain-security.yml
 - type: Website
